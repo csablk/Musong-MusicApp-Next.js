@@ -16,6 +16,8 @@ Main features include:
 - Supabase for authentication and database
 
 ![Musong Screenshot](./screenshot.png)
+![Musong Screenshot](./screenshot1.png)
+
 
 ---
 
