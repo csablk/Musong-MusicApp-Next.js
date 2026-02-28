@@ -58,11 +58,11 @@ const Header: React.FC<HeaderProps> = ({children, className}) => {
                 <div className="flex justify-between items-center gap-x-4">
                     {user ? (
                         <div className="flex gap-x-4 items-center">
-                            <Button onClick={handleLogout} className=" cursor-pointer bg-white px-6 py-2">
+                            <Button onClick={handleLogout} className="bg-transparent cursor-pointer hover:text-black transition text-white hover:bg-white px-6 py-2">
                                 Logout
                             </Button>
                             <Button onClick={() => router.push('/account')} className="bg-transparent cursor-pointer">
-                                <FaUserAlt className="hover:text-white transition"/>
+                                <FaUserAlt className="hover:text-gray text-white transition"/>
                             </Button>
                         </div>
                     ) : (
